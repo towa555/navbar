@@ -1,15 +1,14 @@
 *{
     box-sizing: border-box;
+    padding: 0;
+
 }
 
 body{
     margin: 0;
+    background-color:rgb(179, 177, 177);
 }
-.container{
-    margin: 1rem;
-    text-align: center;
-    border: 2px solid #648880;
-}
+
 .nav{
     background-color: #333;
     color: #fff;
@@ -47,4 +46,94 @@ body{
 }
 .nav li:hover{
     background-color: #777;
+}
+
+.container{
+    margin: 40px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    width: 50%;
+    border-radius: 10px;
+}
+h1{
+  font-size: 1.8em;
+}
+.google{
+    font-size: 20px;
+    font-weight: bold;
+    border: 1.5px solid #999999;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.wrap{
+    padding-bottom: 30px;
+}
+input{
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    background-color: #faf9f9;
+    border-radius: 5px;
+    border: 2px solid#FFF;
+    transition: 0.5s;
+}
+input:hover{
+    border: 2px solid#3e87e7;
+    transition: 0.5s;
+
+}
+label{
+    font-weight: bold;
+    font-size: 15px;
+}
+.term{
+    text-align: center;
+}
+b{
+    color: #156de0;
+}
+u{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+button{
+    background-color:#156de0 ;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.check{
+    display: flex;
+}
+.checktext{
+    font-size: 20px;
+    font-weight: normal;
+}
+li{
+list-style: none;
+}
+
+a{
+    background-color:#156de0 ;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
 }
